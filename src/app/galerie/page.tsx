@@ -1,11 +1,12 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
 import BeforeAfterCard from "@/components/BeforeAfterCard";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import { WHATSAPP_LINK, BEFORE_AFTER } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Galerie — EcoShine Marrakech",
+  title: "Galerie — A7san chocho Marrakech",
   description: "Découvrez nos réalisations avant/après de lavage auto sans eau et detailing à Marrakech.",
 };
 
@@ -70,20 +71,54 @@ export default function GaleriePage() {
         </div>
       </section>
 
-      {/* Featured Before/After Slider */}
+      {/* Featured Before/After Image */}
       <section className="pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <BeforeAfterSlider
-            beforeColor="bg-gradient-to-br from-stone-400 via-stone-500 to-stone-600"
-            afterColor="bg-gradient-to-br from-teal-300 via-emerald-400 to-teal-500"
-            beforeEmoji="🚗"
-            afterEmoji="🚗"
-            beforeLabel="Avant EcoShine"
-            afterLabel="Après EcoShine"
-          />
+          <div className="relative rounded-3xl overflow-hidden shadow-xl border border-gray-200">
+            <Image
+              src="/images/before-after-1.jpg"
+              alt="Avant et après lavage auto — Mercedes"
+              width={1200}
+              height={400}
+              className="w-full h-auto"
+              priority
+            />
+            <div className="absolute bottom-4 left-4 bg-red-500/90 text-white text-sm font-bold px-4 py-2 rounded-full backdrop-blur-sm">
+              Avant
+            </div>
+            <div className="absolute bottom-4 right-4 bg-green-500/90 text-white text-sm font-bold px-4 py-2 rounded-full backdrop-blur-sm">
+              Après
+            </div>
+          </div>
           <p className="text-center text-sm text-gray mt-4">
             Detailing complet — Mercedes Classe E — Guéliz, Marrakech
           </p>
+        </div>
+      </section>
+
+      {/* Real Photos Gallery */}
+      <section className="pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-2xl font-bold text-dark text-center mb-8">
+            Nos interventions en images
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { src: "/images/car-wash-1.jpg", alt: "Lavage auto professionnel" },
+              { src: "/images/car-wash-2.jpg", alt: "Detailing intérieur" },
+              { src: "/images/car-wash-3.jpg", alt: "Nettoyage extérieur" },
+              { src: "/images/car-wash-4.jpg", alt: "Finition premium" },
+            ].map((img, i) => (
+              <div key={i} className="relative h-56 rounded-2xl overflow-hidden group">
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

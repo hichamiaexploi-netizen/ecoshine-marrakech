@@ -57,7 +57,7 @@ export default function ReservationPage() {
   }
 
   function getWhatsAppLink() {
-    const msg = `Bonjour EcoShine ! Je souhaite réserver :
+    const msg = `Bonjour A7san chocho ! Je souhaite réserver :
 
 📋 *Réservation*
 👤 Nom : ${form.name}

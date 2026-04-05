@@ -11,11 +11,11 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "EcoShine Marrakech — Lavage Auto Sans Eau à Domicile",
+  title: "A7san chocho — Lavage Auto Sans Eau à Domicile à Marrakech",
   description:
-    "Service premium de lavage automobile sans eau et detailing à domicile à Marrakech. Écologique, pratique et professionnel. Guéliz, Hivernage, Majorelle, Palmeraie, Targa.",
+    "A7san chocho : service premium de lavage automobile sans eau et detailing à domicile à Marrakech. Écologique, pratique et professionnel. Guéliz, Hivernage, Majorelle, Palmeraie, Targa.",
   keywords:
-    "lavage auto marrakech, lavage sans eau, detailing marrakech, lavage à domicile, car wash marrakech, lavage écologique",
+    "chicha lavage auto marrakech, lavage sans eau, detailing marrakech, lavage à domicile, car wash marrakech, lavage écologique",
 };
 
 export default function RootLayout({

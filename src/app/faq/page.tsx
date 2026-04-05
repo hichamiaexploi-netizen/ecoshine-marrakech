@@ -4,7 +4,7 @@ import FAQAccordion from "@/components/FAQAccordion";
 import { FAQS, WHATSAPP_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "FAQ — EcoShine Marrakech",
+  title: "FAQ — A7san chocho Marrakech",
   description: "Questions fréquentes sur notre service de lavage auto sans eau à Marrakech.",
 };
 

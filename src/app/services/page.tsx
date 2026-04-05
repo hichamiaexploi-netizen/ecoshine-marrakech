@@ -1,9 +1,19 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
 import { SERVICES, WHATSAPP_LINK } from "@/lib/constants";
 
+const SERVICE_IMAGES = [
+  "/images/car-wash-1.jpg",
+  "/images/car-wash-2.jpg",
+  "/images/car-wash-3.jpg",
+  "/images/car-wash-4.jpg",
+  "/images/before-after-1.jpg",
+  "/images/car-wash-1.jpg",
+];
+
 export const metadata: Metadata = {
-  title: "Nos Services — EcoShine Marrakech",
+  title: "Nos Services — A7san chocho Marrakech",
   description: "Découvrez nos services de lavage auto sans eau et detailing à domicile à Marrakech.",
 };
 
@@ -63,8 +73,13 @@ export default function ServicesPage() {
                     </a>
                   </div>
                 </div>
-                <div className="w-full lg:w-80 h-48 lg:h-56 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center">
-                  <span className="text-8xl opacity-50">{service.icon}</span>
+                <div className="relative w-full lg:w-80 h-48 lg:h-56 rounded-2xl overflow-hidden">
+                  <Image
+                    src={SERVICE_IMAGES[i % SERVICE_IMAGES.length]}
+                    alt={service.name}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
             ))}

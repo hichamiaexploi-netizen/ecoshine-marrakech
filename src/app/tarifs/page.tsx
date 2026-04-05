@@ -4,7 +4,7 @@ import SectionTitle from "@/components/SectionTitle";
 import { PRICING, WHATSAPP_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Tarifs — EcoShine Marrakech",
+  title: "Tarifs — A7san chocho Marrakech",
   description: "Nos tarifs transparents pour le lavage auto sans eau et detailing à domicile à Marrakech.",
 };
 

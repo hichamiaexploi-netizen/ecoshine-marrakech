@@ -3,8 +3,8 @@ import SectionTitle from "@/components/SectionTitle";
 import { WHATSAPP_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "À Propos — EcoShine Marrakech",
-  description: "Découvrez EcoShine Marrakech, votre service de lavage auto écologique sans eau à domicile.",
+  title: "À Propos — A7san chocho Marrakech",
+  description: "Découvrez A7san chocho Marrakech, votre service de lavage auto écologique sans eau à domicile.",
 };
 
 export default function AProposPage() {
@@ -15,7 +15,7 @@ export default function AProposPage() {
           <SectionTitle
             subtitle="À propos"
             title="Notre histoire"
-            description="EcoShine est né d'une conviction : prendre soin de sa voiture ne devrait pas coûter à la planète."
+            description="A7san chocho est né d'une conviction : prendre soin de sa voiture ne devrait pas coûter à la planète."
           />
         </div>
       </section>
@@ -27,13 +27,13 @@ export default function AProposPage() {
             <div className="bg-white rounded-3xl border border-gray-100 p-8 lg:p-12 space-y-6">
               <h3 className="text-2xl font-bold text-dark">Qui sommes-nous ?</h3>
               <p className="text-gray leading-relaxed">
-                EcoShine Marrakech est un service de <strong>lavage automobile sans eau</strong> et de
+                A7san chocho Marrakech est un service de <strong>lavage automobile sans eau</strong> et de
                 <strong> detailing premium à domicile</strong>. Fondé à Marrakech, notre mission est
                 simple : offrir un service de nettoyage automobile de qualité supérieure tout en
                 préservant notre ressource la plus précieuse — l&apos;eau.
               </p>
               <p className="text-gray leading-relaxed">
-                Chaque lavage traditionnel consomme entre 150 et 300 litres d&apos;eau. Chez EcoShine,
+                Chaque lavage traditionnel consomme entre 150 et 300 litres d&apos;eau. Chez A7san chocho,
                 nous utilisons des produits biodégradables haute performance qui ne nécessitent
                 <strong> pas une seule goutte d&apos;eau</strong>, tout en garantissant un résultat
                 impeccable.
@@ -98,7 +98,7 @@ export default function AProposPage() {
 
           {/* CTA */}
           <div className="text-center bg-gradient-to-r from-primary to-primary-dark rounded-3xl p-8 lg:p-12">
-            <h3 className="text-2xl font-bold text-white mb-3">Rejoignez l&apos;aventure EcoShine</h3>
+            <h3 className="text-2xl font-bold text-white mb-3">Rejoignez l&apos;aventure A7san chocho</h3>
             <p className="text-white/80 mb-6">
               Faites le choix d&apos;un lavage responsable et premium pour votre véhicule.
             </p>

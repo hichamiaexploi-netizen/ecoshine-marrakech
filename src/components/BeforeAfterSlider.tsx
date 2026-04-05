@@ -48,7 +48,7 @@ export default function BeforeAfterSlider({
         <span className="bg-green-500 text-white text-sm font-bold px-4 py-1.5 rounded-full">
           {afterLabel}
         </span>
-        <p className="mt-2 text-green-900/60 text-sm font-medium">Résultat EcoShine</p>
+        <p className="mt-2 text-green-900/60 text-sm font-medium">Résultat A7san chocho</p>
       </div>
 
       {/* Before */}

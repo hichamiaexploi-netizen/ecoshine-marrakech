@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
 import FAQAccordion from "@/components/FAQAccordion";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
@@ -25,7 +26,8 @@ export default function Home() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
-          <div className="max-w-3xl">
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="max-w-3xl flex-1">
             <span className="inline-flex items-center gap-2 bg-primary/20 text-primary-light px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm border border-primary/20">
               🍃 Écologique &bull; À domicile &bull; Premium
             </span>
@@ -63,6 +65,21 @@ export default function Home() {
               <span className="flex items-center gap-2">✅ Produits écologiques</span>
               <span className="flex items-center gap-2">✅ 7j/7</span>
             </div>
+          </div>
+          <div className="hidden lg:block flex-shrink-0">
+            <div className="relative w-80 h-80 xl:w-96 xl:h-96">
+              <Image
+                src="/images/before-after-1.jpg"
+                alt="Résultat avant après lavage auto"
+                fill
+                className="object-cover rounded-3xl border-4 border-white/10 shadow-2xl"
+                priority
+              />
+              <div className="absolute -bottom-4 -right-4 bg-primary text-white px-4 py-2 rounded-2xl text-sm font-bold shadow-lg">
+                Avant / Après ✨
+              </div>
+            </div>
+          </div>
           </div>
         </div>
 
@@ -138,7 +155,7 @@ export default function Home() {
               Avant / Après
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              La différence EcoShine
+              La différence A7san chocho
             </h2>
             <p className="mt-4 text-gray-400 max-w-2xl mx-auto leading-relaxed">
               Découvrez la transformation de nos clients. Glissez pour comparer le résultat avant et après notre intervention.
@@ -152,8 +169,8 @@ export default function Home() {
               afterColor="bg-gradient-to-br from-teal-300 via-emerald-400 to-teal-500"
               beforeEmoji="🚗"
               afterEmoji="🚗"
-              beforeLabel="Avant EcoShine"
-              afterLabel="Après EcoShine"
+              beforeLabel="Avant A7san chocho"
+              afterLabel="Après A7san chocho"
             />
           </div>
 

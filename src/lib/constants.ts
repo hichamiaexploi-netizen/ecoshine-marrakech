@@ -1,6 +1,6 @@
-export const WHATSAPP_NUMBER = "212649363009";
-export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Bonjour EcoShine ! Je souhaite réserver un lavage auto à domicile.")}`;
-export const PHONE_NUMBER = "+212 6 49 36 30 09";
+export const WHATSAPP_NUMBER = "212603946057";
+export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Bonjour A7san chocho ! Je souhaite réserver un lavage auto à domicile.")}`;
+export const PHONE_NUMBER = "+212 6 03 94 60 57";
 export const EMAIL = "contact@ecoshine-marrakech.ma";
 export const ADDRESS = "Marrakech, Maroc";
 
@@ -184,7 +184,7 @@ export const TESTIMONIALS = [
   {
     name: "Amina R.",
     location: "Targa",
-    text: "Ponctuel, professionnel et résultat au top. Mon SUV brille comme au premier jour. Merci EcoShine !",
+    text: "Ponctuel, professionnel et résultat au top. Mon SUV brille comme au premier jour. Merci A7san chocho !",
     rating: 5,
   },
 ];

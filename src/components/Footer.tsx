@@ -9,9 +9,9 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🍃</span>
+              <span className="text-2xl">🚗</span>
               <span className="text-xl font-bold text-white">
-                Eco<span className="text-primary">Shine</span>
+                A7san <span className="text-primary">chocho</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed">
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} EcoShine Marrakech. Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} A7san chocho Marrakech. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

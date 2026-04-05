@@ -3,8 +3,8 @@ import SectionTitle from "@/components/SectionTitle";
 import { PHONE_NUMBER, EMAIL, WHATSAPP_LINK, ZONES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact — EcoShine Marrakech",
-  description: "Contactez EcoShine Marrakech pour votre lavage auto sans eau à domicile.",
+  title: "Contact — A7san chocho Marrakech",
+  description: "Contactez A7san chocho Marrakech pour votre lavage auto sans eau à domicile.",
 };
 
 export default function ContactPage() {
